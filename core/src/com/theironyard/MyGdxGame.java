@@ -101,7 +101,7 @@ public class MyGdxGame extends ApplicationAdapter {
 
 	public float decelerate(float velocity) {
 		velocity *= DECELERATION;
-		if (Math.abs(velocity) < 1); {
+		if (Math.abs(velocity) < 1) {
 			velocity = 0;
 		}
 		return velocity;
